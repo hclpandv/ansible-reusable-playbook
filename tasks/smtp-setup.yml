@@ -1,0 +1,12 @@
+---
+- name: Install mailutils packages
+  apt:
+    name: "mailutils"
+    state: present
+
+- name: Configure Postfix as local SMTP server
+  template:
+    src: "templates/main.cf.j2"
+    dest: "/etc/postfix/main.cf"
+  notify:
+    - restart postfix

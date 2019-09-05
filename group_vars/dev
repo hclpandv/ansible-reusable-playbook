@@ -1,0 +1,5 @@
+---
+# group variables
+environment_name: "dev"
+deploy_user: ubuntu
+

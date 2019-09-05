@@ -1,0 +1,19 @@
+---
+- name: get process details
+  command: "echo running handellers"
+  become: yes
+  become_user: root
+
+- name: reload nginx
+  service:
+    name: nginx
+    state: reloaded
+  become: yes
+  become_user: root
+
+- name: restart postfix
+  service:
+    name: postfix
+    state: restarted
+  become: yes
+  become_user: root

@@ -1,0 +1,4 @@
+---
+- name: Sample step from pre task
+  debug:
+    msg: "Sample output credit {{ my_name }}"

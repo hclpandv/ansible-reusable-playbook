@@ -1,0 +1,5 @@
+---
+# group variables
+environment_name: "staging"
+deploy_user: vagrant
+

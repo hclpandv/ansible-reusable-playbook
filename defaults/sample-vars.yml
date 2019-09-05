@@ -1,0 +1,11 @@
+---
+# sample variables
+my_name: vikiscripts
+app_root: /var/www/html
+deploy_user: vagrant
+
+# variable needed for smtp task
+mail_host_postfix: localhost
+
+# You may add more variables below
+more_var: anothervar

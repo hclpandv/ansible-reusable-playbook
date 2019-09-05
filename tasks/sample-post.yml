@@ -1,0 +1,9 @@
+---
+- name: Sample step from post task
+  debug:
+    msg: "Sample output credit {{ my_name }}"
+
+- name: execute sample post handler
+  command: echo "This task will call sample handler"
+  notify: 
+    - get process details
