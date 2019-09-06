@@ -17,5 +17,5 @@ ansible-galaxy install -p roles -r ansible-roles.yml
 
 ```bash
 # Initialize a role directory 
-ansible-galaxy init vikiscripts.sampel-role
+ansible-galaxy init vikiscripts.sample-role
 ```
