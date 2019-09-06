@@ -1,4 +1,4 @@
-# ansible resuable playbook template
+# ansible resuable project template
 
 * You may clone this repo as a starting point of any new ansible project
 * This template contains directory structure as per best practices
